@@ -20,4 +20,18 @@ I added the possibility to overclock the pico to 250MHz, but in the end it does 
 
 I tried to document the code as much as I could. Since I am still a beginner, I have no doubt that this can be optimized quite a lot.
 If any of you is interested in using or improving it, i'll be happy to provide further explanations.
+
+Pinout for the Pico:
+
+Red is on GPIO0    -> using 300 ohm resistor
+Green is on GPIO1  -> using 300 ohm resistor
+Blue is on GPIO2   -> using 300 ohm resistor
+Hsync signal is on GPIO4 -> using 47 ohm resistor
+Vsync signal is on GPIO5 -> using 47 ohm resistor
+
+The rest of the VGA pins are set to GND
+
+
+
+
 ![20220306_174803](https://user-images.githubusercontent.com/47264131/156934327-0852540c-f7ba-4f09-91b1-b13c856d4752.jpg)
