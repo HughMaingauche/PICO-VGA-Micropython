@@ -12,7 +12,7 @@ In the end the buffer for the whole frame takes 120k of RAM, wich leaves the PIC
 
 Synchronization between PIO and DMA is achived using PIO Irqs.
 
-My references are :
+I got inspiration from :
 - This project (for the pico, written in c) very well documented by V. Hunter Adams (vha3@cornell.edu) https://vanhunteradams.com/Pico/VGA/VGA.html#Code-organization
 - The explanations provided on the icropython forum by Roberthh and the tools he posted on github https://github.com/robert-hh/RP2040-Examples/tree/master/rp2_util
 
