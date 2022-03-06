@@ -13,11 +13,11 @@ In the end the buffer for the whole frame takes 120k of RAM, wich leaves the PIC
 Synchonisation between PIO and DMA is achived using PIO Irqs.
 
 My references are :
-- This project (for the pico, written in c) very well documented by V. Hunter Adams (vha3@cornell.edu) [url]https://vanhunteradams.com/Pico/VGA/VGA.html#Code-organization[/url]
-- The explanations provided on this forum by Roberthh and the tools he posted on github [url]https://github.com/robert-hh/RP2040-Examples/tree/master/rp2_util[/url]
+- This project (for the pico, written in c) very well documented by V. Hunter Adams (vha3@cornell.edu) https://vanhunteradams.com/Pico/VGA/VGA.html#Code-organization
+- The explanations provided on this forum by Roberthh and the tools he posted on github https://github.com/robert-hh/RP2040-Examples/tree/master/rp2_util
 
 I added the possibility to overclock the pico to 250MHz, but in the end it does not really impact the picture quality. I coded a few routines to draw rectangles/lines/circle, for testing purpose.
 
 I tried to document the code as much as I could. Since I am still a beginner, I have no doubt that this can be optimized quite a lot.
-If any of you is interested in using or imporving it, i'll be happy to provide further explanations.
+If any of you is interested in using or improving it, i'll be happy to provide further explanations.
 ![20220306_174803](https://user-images.githubusercontent.com/47264131/156934327-0852540c-f7ba-4f09-91b1-b13c856d4752.jpg)
