@@ -10,7 +10,7 @@ Since the pico does not have a tremendous amount of memory for this kind of usag
 
 In the end the buffer for the whole frame takes 120k of RAM, wich leaves the PICO with approx 50k to do some stuff with micropython
 
-Synchonisation between PIO and DMA is achived using PIO Irqs.
+Synchronization between PIO and DMA is achived using PIO Irqs.
 
 My references are :
 - This project (for the pico, written in c) very well documented by V. Hunter Adams (vha3@cornell.edu) https://vanhunteradams.com/Pico/VGA/VGA.html#Code-organization
