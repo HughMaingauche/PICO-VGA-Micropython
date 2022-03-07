@@ -24,10 +24,15 @@ If any of you is interested in using or improving it, i'll be happy to provide f
 Pinout for the Pico <-> VGA:
 
 Red is on GPIO0    -> using 300 ohm resistor
+
 Green is on GPIO1  -> using 300 ohm resistor
+
 Blue is on GPIO2   -> using 300 ohm resistor
+
 Hsync signal is on GPIO4 -> using 47 ohm resistor
+
 Vsync signal is on GPIO5 -> using 47 ohm resistor
+
 
 The rest of the VGA pins are set to GND
 
